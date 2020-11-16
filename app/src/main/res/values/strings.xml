@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">Practica_6</string>
+    <string name="hello">Hello World, ImageTextListViewActivity!</string>
+    <string name="name">ListViewBaseAdapter</string>
+    <string name="image">Thumbnail</string>
 </resources>
