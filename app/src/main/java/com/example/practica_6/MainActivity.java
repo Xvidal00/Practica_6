@@ -58,14 +58,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             Intent PARKING = new Intent(this,intentParking.class);
             startActivity(PARKING);
         }
-        else if(obrir.getId()== R.id.img5) //NEGOCIS CAMBIAR
+        else if(obrir.getId()== R.id.img5) //NEGOCIS
         {
-            Intent NEGOCIS = new Intent(this,MainActivity.class);
+            Intent NEGOCIS = new Intent(this,IntentNegocis.class);
             startActivity(NEGOCIS);
         }
-        else if(obrir.getId()== R.id.img6) //MOVIES CAMBIAR
+        else if(obrir.getId()== R.id.img6) //MOVIES
         {
-            Intent MOVIES = new Intent(this,MainActivity.class);
+            Intent MOVIES = new Intent(this,IntentCartelera.class);
             startActivity(MOVIES);
         }
 
