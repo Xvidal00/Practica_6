@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -10,6 +10,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/restaurants"
+        android:layout_margin="20dp"
         android:id="@+id/img1"
         />
 
@@ -18,6 +19,8 @@
         android:layout_height="wrap_content"
         android:src="@drawable/transport"
         android:id="@+id/img2"
+        android:layout_margin="20dp"
+        android:layout_toRightOf="@id/img1"
         />
 
     <ImageButton
@@ -25,6 +28,8 @@
         android:layout_height="wrap_content"
         android:src="@drawable/hotels"
         android:id="@+id/img3"
+        android:layout_margin="20dp"
+        android:layout_below="@id/img1"
         />
 
     <ImageButton
@@ -32,6 +37,9 @@
         android:layout_height="wrap_content"
         android:src="@drawable/parking"
         android:id="@+id/img4"
+        android:layout_margin="20dp"
+        android:layout_toRightOf="@id/img3"
+        android:layout_below="@id/img2"
         />
 
     <ImageButton
@@ -39,12 +47,18 @@
         android:layout_height="wrap_content"
         android:src="@drawable/business"
         android:id="@+id/img5"
+        android:layout_margin="20dp"
+        android:layout_below="@id/img3"
         />
 
     <ImageButton
+
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/movies"
         android:id="@+id/img6"
+        android:layout_margin="20dp"
+        android:layout_below="@id/img4"
+        android:layout_toRightOf="@id/img5"
         />
-</LinearLayout>
+</RelativeLayout>
