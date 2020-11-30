@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".hotelestrella3"></activity>
+        <activity android:name=".IntentCartelera"></activity>
+        <activity android:name=".IntentNegocis" />
+        <activity android:name=".hotelestrella3" />
         <activity android:name=".intentParking" />
         <activity android:name=".intentHotel" />
         <activity android:name=".MainActivity">
