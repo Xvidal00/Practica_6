@@ -3,4 +3,5 @@
     <string name="hello">Hello World, ImageTextListViewActivity!</string>
     <string name="name">ListViewBaseAdapter</string>
     <string name="image">Thumbnail</string>
+    <string name="spinner_title">titulo Ejemplo</string>
 </resources>

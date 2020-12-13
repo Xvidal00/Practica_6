@@ -8,7 +8,7 @@
     >
 
     <ImageView
-        android:id="@+id/hotelIMG"
+        android:id="@+id/parkingIMG"
         android:layout_width="250dp"
         android:layout_height="250dp"
         android:layout_gravity="center"
@@ -16,7 +16,7 @@
 
     <TextView
         android:layout_marginTop="-20dp"
-        android:id="@+id/nomHotel"
+        android:id="@+id/nomParking"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textColor="#FFFFFF"
@@ -24,25 +24,25 @@
         android:text="TextView"
         android:textSize="22dp"/>
 
-        <TextView
-            android:layout_marginTop="10dp"
-            android:id="@+id/direccio"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textColor="#FFFFFF"
-            android:layout_gravity="center"
-            android:text="TextView"
-            android:textSize="15dp"/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/direccio02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center"
+        android:text="TextView"
+        android:textSize="15dp"/>
 
-        <TextView
-            android:layout_marginTop="10dp"
-            android:id="@+id/telefon"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textColor="#FFFFFF"
-            android:layout_gravity="center"
-            android:text="TextView"
-            android:textSize="18dp"/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/plazas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center"
+        android:text="TextView"
+        android:textSize="18dp"/>
 
 
 
